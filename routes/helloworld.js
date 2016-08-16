@@ -34,6 +34,10 @@ var uploadFile = multer({ dest: './public/'}).single('file')
  */
 router.post('/upload', function(req, res) {
 
+  if (!req.files) {
+        res.setHeader('Content-Type', 'application/json');
+        res.end(JSON.stringify({"response": "File not found in the request"}));
+  } 
   try 
   {
     uploadFile(req, res, function (err) {
