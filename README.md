@@ -8,9 +8,7 @@ Simple use-case : You never have to wait for an API to be up to be able to test 
 ## Install Node
 
 Install node from here : [http://nodejs.org/]() 
-
-It also uses Multer, which has been locally installed in the modules, if there are issues - please install multer 
-
+ 
 ##Clone the repo
 
 Hard to move ahead without cloning or downloading the repo. Do that now.
