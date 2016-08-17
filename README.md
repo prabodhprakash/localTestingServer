@@ -36,7 +36,7 @@ In the directory that you have downloaded (or cloned) run the command `npm start
 > 
 		curl -X POST -F "file=@<absolute file path>" http://localhost:3000/multipart/singlefileupload
 		
-> 2. [downloadfile](http://localhost:3000/multipart/downloadfile) - [GET] it downloads a dummy file kept in public/stylesheet/style.css. You can download the path with the file you want to download.
+> 2. [**downloadfile**](http://localhost:3000/multipart/downloadfile) - [GET] it downloads a dummy file kept in public/stylesheet/style.css. You can download the path with the file you want to download.
 
 
 ##Contact
