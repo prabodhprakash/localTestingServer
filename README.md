@@ -35,6 +35,8 @@ In the directory that you have downloaded (or cloned) run the command `npm start
 > 1. [**singlefileupload**](http://localhost:3000/multipart/uploadsinglefile) - [POST] you can upload a single file. The key for file must be 'file'. For UI, you may want to use [Postman](https://www.getpostman.com/). Curl can also be used to make the request like below:
 > 
 		curl -X POST -F "file=@<absolute file path>" http://localhost:3000/multipart/singlefileupload
+		
+> 2. [downloadfile](http://localhost:3000/multipart/downloadfile) - [GET] it downloads a dummy file kept in public/stylesheet/style.css. You can download the path with the file you want to download.
 
 
 ##Contact
