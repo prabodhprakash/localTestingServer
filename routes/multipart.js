@@ -48,5 +48,13 @@ router.post('/singlefileupload', function(req, res) {
 
 });
 
+/*
+ * GET request to upload a file
+ */
+router.get('/downloadfile', function(req, res) 
+{
+  res.download('./public/stylesheets/style.css', 'style.css');
+});
+
 
 module.exports = router;
