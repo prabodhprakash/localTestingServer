@@ -24,5 +24,18 @@ I have created an API "sayHello" which returns a JSON saying "Hello World"
 ##Starting the server
 In the directory that you have downloaded (or cloned) run the command `npm start` to start the server. If you have changed nothing [http://localhost:3000/helloworld/sayhello]() should say you hello :-) 
 
+##API
+**/helloworld**
+
+> 1. [**sayhello**](http://localhost:3000/helloworld/sayhello) - [GET] returns a response saying hello
+> 2. [**sayhello**](http://localhost:3000/helloworld/sayhello) - [POST] returns a response saying hello, by reading response from a file
+
+**/multipart**
+
+> 1. [**singlefileupload**](http://localhost:3000/multipart/uploadsinglefile) - [POST] you can upload a single file. The key for file must be 'file'. For UI, you may want to use [Postman](https://www.getpostman.com/). Curl can also be used to make the request like below:
+> 
+		curl -X POST -F "file=@<absolute file path>" http://localhost:3000/multipart/singlefileupload
+
+
 ##Contact
 For any help, please contact : <prabodh.prakash@gmail.com>
