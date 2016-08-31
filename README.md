@@ -40,4 +40,5 @@ In the directory that you have downloaded (or cloned) run the command `npm start
 
 
 ##Contact
-For any help, please contact : <prabodh.prakash@gmail.com>
+0. Please contribute with stuffs that could be made for local testing, e.g. simulation of response codes etc.
+1. For everything else, please contact : <prabodh.prakash@gmail.com>
